@@ -1,7 +1,5 @@
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.pkgdef
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.vsix
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\extension.vsixmanifest
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE100.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE80.dll
@@ -55,13 +53,13 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.ImageCatalog.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.CoreUtility.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSMainToolWindowControl.baml
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSResourceDictionary.baml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSMainToolWindowControl.g.cs
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype_MarkupCompile.cache
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype_MarkupCompile.lref
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSResourceDictionary.baml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.g.resources
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\VSPackage.resources
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.csproj.GenerateResource.Cache
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSProtoExt.csproj.GenerateResource.Cache
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSMainToolWindowPackage.cto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\VSCT.read.1.tlog
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\VSCT.write.1.tlog
@@ -71,5 +69,6 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.pdb
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.latest.pkgdef
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.vsix
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\extension.vsixmanifest
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\extension.vsixmanifest
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.csprojResolveAssemblyReference.cache
