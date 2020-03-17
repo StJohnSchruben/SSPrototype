@@ -6,6 +6,7 @@
 
 namespace SSPrototype
 {
+    using SSMainControl;
     using System.Diagnostics.CodeAnalysis;
     using System.Windows;
     using System.Windows.Controls;
@@ -21,6 +22,7 @@ namespace SSPrototype
         public SSMainToolWindowControl()
         {
             this.InitializeComponent();
+            this.cc.Content = new MainView();
         }
 
         /// <summary>

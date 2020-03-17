@@ -22,6 +22,7 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.Threading.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.Utilities.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.Validation.dll
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSMainControl.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\stdole.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE90a.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
@@ -31,6 +32,7 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.CoreUtility.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.MSXML.dll
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSMainControl.pdb
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE100.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE80.xml
@@ -54,6 +56,7 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.ImageCatalog.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.CoreUtility.xml
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.csprojResolveAssemblyReference.cache
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSMainToolWindowControl.baml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSMainToolWindowControl.g.cs
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype_MarkupCompile.cache
@@ -72,4 +75,3 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.latest.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\extension.vsixmanifest
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.csprojResolveAssemblyReference.cache

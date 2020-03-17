@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mainControl="clr-namespace:SSMainControl;assembly=SSMainControl"
              Background="{DynamicResource VsBrush.Window}"
              Foreground="{DynamicResource VsBrush.WindowText}"
              mc:Ignorable="d"
@@ -16,6 +17,7 @@
         </ResourceDictionary>
     </UserControl.Resources>
     <Grid>
+        <ContentControl Name="cc"/>
         <StackPanel Orientation="Vertical">
             <TextBlock Margin="10" HorizontalAlignment="Center">SS: Main Tool Window</TextBlock>
             <Button Content="Click me!" Click="button1_Click" Width="120" Height="80" Name="button1"/>
@@ -23,5 +25,6 @@
         <Canvas>
             <Border Background="{StaticResource SCIconBlack}" Canvas.Left="10" Canvas.Top="10" Height="25" Width='25'></Border>
         </Canvas>
+        
     </Grid>
 </UserControl>
