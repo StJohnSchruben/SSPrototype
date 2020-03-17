@@ -1,10 +1,7 @@
-c:\users\john.schruben\documents\visual studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.vsix
-c:\users\john.schruben\documents\visual studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\extension.vsixmanifest
-c:\users\john.schruben\documents\visual studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.dll
-c:\users\john.schruben\documents\visual studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.pdb
-c:\users\john.schruben\documents\visual studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\extension.vsixmanifest
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.pkgdef
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.vsix
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\extension.vsixmanifest
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE100.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE80.dll
@@ -70,6 +67,8 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\VSCT.write.1.tlog
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\CtoResourceMerger.cache
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\VSPackage.resources.original
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.dll
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.pdb
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.latest.pkgdef
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.csprojResolveAssemblyReference.cache
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\extension.vsixmanifest

@@ -58,6 +58,7 @@
       <DependentUpon>SSMainToolWindowControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="SSMainToolWindowPackage.cs" />
+    <Compile Include="SSTestCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Key.snk" />
@@ -69,12 +70,13 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Resource Include="Resources\SCIconBlack.PNG" />
-    <Content Include="Resources\SCIconBlack.ico" />
+    <Resource Include="Resources\SCIconBlack.ico" />
     <Content Include="Resources\SSMainToolWindowCommand.png" />
     <Content Include="Resources\SSMainToolWindowPackage.ico" />
     <VSCTCompile Include="SSMainToolWindowPackage.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
     </VSCTCompile>
+    <Content Include="Resources\SSTestCommand.png" />
     <Content Include="stylesheet.css" />
   </ItemGroup>
   <ItemGroup>

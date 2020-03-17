@@ -69,6 +69,7 @@ namespace SSPrototype
         {
             SSMainToolWindowCommand.Initialize(this);
             base.Initialize();
+            SSTestCommand.Initialize(this);
         }
 
         #endregion
