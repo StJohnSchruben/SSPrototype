@@ -1,0 +1,5 @@
+c:\users\john.schruben\documents\visual studio 2015\Projects\SSPrototype\SSPrototype\bin\Release\SSPrototype.vsix
+c:\users\john.schruben\documents\visual studio 2015\Projects\SSPrototype\SSPrototype\bin\Release\extension.vsixmanifest
+c:\users\john.schruben\documents\visual studio 2015\Projects\SSPrototype\SSPrototype\obj\Release\SSPrototype.dll
+c:\users\john.schruben\documents\visual studio 2015\Projects\SSPrototype\SSPrototype\obj\Release\SSPrototype.pdb
+c:\users\john.schruben\documents\visual studio 2015\Projects\SSPrototype\SSPrototype\obj\Release\extension.vsixmanifest

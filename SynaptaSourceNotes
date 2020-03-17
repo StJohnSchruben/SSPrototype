@@ -1,0 +1,12 @@
+needed for extension development 
+Visual studio SDK 2015		
+Extensibility Tools (VSmarketplace)
+might have to disable xaml debuggin Tools>Options>Debugging>uncheck enable xaml debuggin
+Need a licence
+
+You have to reset the visual studio instance or else deleted extencion stuff will be present
+c:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin> CreateExpInstance /Reset /VSINstance-14.0 /RootSuffix=Exp 
+
+prebuild command 
+call "%userprofile%\Documents\Visual Studio 2015\Projects\SSPrototype\SSScripts&Bats\ResetVSInstance.bat"
+
