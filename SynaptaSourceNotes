@@ -9,4 +9,4 @@ c:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegratio
 
 prebuild command 
 call "%userprofile%\Documents\Visual Studio 2015\Projects\SSPrototype\SSScripts&Bats\ResetVSInstance.bat"
-
+call "$(ProjectDir)..\SSScripts&Bats\ResetVSInstance.bat"

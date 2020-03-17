@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Resource Include="Resources\SCIconBlack.PNG" />
+    <Content Include="Resources\SCIconBlack.ico" />
     <Content Include="Resources\SSMainToolWindowCommand.png" />
     <Content Include="Resources\SSMainToolWindowPackage.ico" />
     <VSCTCompile Include="SSMainToolWindowPackage.vsct">
@@ -211,7 +212,8 @@
   </Target>
   <Import Project="..\packages\Microsoft.VSSDK.BuildTools.14.3.25407\build\Microsoft.VSSDK.BuildTools.targets" Condition="Exists('..\packages\Microsoft.VSSDK.BuildTools.14.3.25407\build\Microsoft.VSSDK.BuildTools.targets')" />
   <PropertyGroup>
-    <PreBuildEvent>call "%25userprofile%25\Documents\Visual Studio 2015\Projects\SSPrototype\SSScripts&amp;Bats\ResetVSInstance.bat"</PreBuildEvent>
+    <PreBuildEvent>call "$(ProjectDir)..\SSScripts&amp;Bats\ResetVSInstance.bat"
+</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
