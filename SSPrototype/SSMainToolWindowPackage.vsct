@@ -30,7 +30,16 @@
     called "command set" and is used to group different command inside a logically related
     group; your package should define its own command set in order to avoid collisions
     with command ids defined by other packages. -->
-
+    <Menus>
+      <Menu guid="guidSSMainToolWindowPackage" id="TopLevelMenu" priority="0x700" type="Menu">
+        <Parent guid="guidSHLMainMenu"
+                id="IDG_VS_MM_TOOLSADDINS" />
+        <Strings>
+          <ButtonText>Synapta Source</ButtonText>
+          <CommandName>Synapta Source</CommandName>
+        </Strings>
+      </Menu>
+    </Menus>
     <!--Buttons section. -->
     <!--This section defines the elements the user can interact with, like a menu command or a button
         or combo box in a toolbar. -->
@@ -43,7 +52,7 @@
               <CommandFlag>DynamicVisibility</CommandFlag>
           If you do not want an image next to your command, remove the Icon node /> -->
       <Button guid="guidSSMainToolWindowPackageCmdSet" id="SSMainToolWindowCommandId" priority="0x0100" type="Button">
-        <Parent guid="guidSHLMainMenu" id="IDG_VS_WNDO_OTRWNDWS1" />
+        <Parent guid="guidSSMainToolWindowPackageCmdSet1" id="MyMenuGroup" />
         <Icon guid="guidImages" id="SCIconBlack1" />
         <Strings>
           <ButtonText>SS: Main Tool Window</ButtonText>
@@ -53,7 +62,14 @@
         <Parent guid="guidSSMainToolWindowPackageCmdSet1" id="MyMenuGroup" />
         <Icon guid="guidImages" id="SCIconBlack1" />
         <Strings>
-          <ButtonText>Invoke SSTestCommand</ButtonText>
+          <ButtonText>SS: Test Command</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidSSMainToolWindowPackageCmdSet1" id="cmdidSSTestCommand2" priority="0x0100" type="Button">
+        <Parent guid="guidSSMainToolWindowPackageCmdSet1" id="MyMenuGroup" />
+        <Icon guid="guidImages" id="SCIconBlack1" />
+        <Strings>
+          <ButtonText>SS: Test Command 2</ButtonText>
         </Strings>
       </Button>
     </Buttons>
@@ -69,14 +85,16 @@
     </Bitmaps>
     <Groups>
       <Group guid="guidSSMainToolWindowPackageCmdSet1" id="MyMenuGroup" priority="0x0600">
-        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS" />
+        <Parent guid="guidSSMainToolWindowPackage" id="TopLevelMenu" />
       </Group>
     </Groups>
   </Commands>
 
   <Symbols>
     <!-- This is the package guid. -->
-    <GuidSymbol name="guidSSMainToolWindowPackage" value="{5c954558-20c6-4905-96c8-121284572e1c}" />
+    <GuidSymbol name="guidSSMainToolWindowPackage" value="{5c954558-20c6-4905-96c8-121284572e1c}">
+      <IDSymbol name="TopLevelMenu" value="0x1021"/>
+    </GuidSymbol>
 
     <!-- This is the guid used to group the menu commands together -->
     <GuidSymbol name="guidSSMainToolWindowPackageCmdSet" value="{ececc12a-8158-4af9-89f8-f40ba6e3426a}">
@@ -86,10 +104,11 @@
     <GuidSymbol name="guidImages" value="{d4d7bbc1-0779-4b39-b864-61637ba79c8f}">
       <IDSymbol name="SCIconBlack1" value="1" />
     </GuidSymbol>
-  
+
     <GuidSymbol value="{0b80316b-a8b5-43b7-bd64-a31b9dd92088}" name="guidSSMainToolWindowPackageCmdSet1">
       <IDSymbol value="4128" name="MyMenuGroup" />
       <IDSymbol value="256" name="cmdidSSTestCommand" />
+      <IDSymbol value="4129" name="cmdidSSTestCommand2" />
     </GuidSymbol>
   </Symbols>
 </CommandTable>

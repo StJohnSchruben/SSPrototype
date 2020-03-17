@@ -1,5 +1,5 @@
 ﻿//------------------------------------------------------------------------------
-// <copyright file="SSMainToolWindowPackage.cs" company="Company">
+// <copyright file="SSPackage.cs" company="Company">
 //     Copyright (c) Company.  All rights reserved.
 // </copyright>
 //------------------------------------------------------------------------------
@@ -36,22 +36,20 @@ namespace SSPrototype
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true)]
-    [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)] // Info on this package for Help/About
-    [ProvideMenuResource("Menus.ctmenu", 1)]
-    [ProvideToolWindow(typeof(SSMainToolWindow))]
-    [Guid(SSMainToolWindowPackage.PackageGuidString)]
+    [InstalledProductRegistration("#1110", "#1112", "1.0", IconResourceID = 1400)] // Info on this package for Help/About
+    [Guid(SSPackage.PackageGuidString)]
     [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "pkgdef, VS and vsixmanifest are valid VS terms")]
-    public sealed class SSMainToolWindowPackage : Package
+    public sealed class SSPackage : Package
     {
         /// <summary>
-        /// SSMainToolWindowPackage GUID string.
+        /// SSPackage GUID string.
         /// </summary>
-        public const string PackageGuidString = "5c954558-20c6-4905-96c8-121284572e1c";
+        public const string PackageGuidString = "73d0d20a-dcb2-475e-a149-ad58e9368867";
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="SSMainToolWindow"/> class.
+        /// Initializes a new instance of the <see cref="SSPackage"/> class.
         /// </summary>
-        public SSMainToolWindowPackage()
+        public SSPackage()
         {
             // Inside this method you can place any initialization code that does not require
             // any Visual Studio service because at this point the package object is created but
@@ -67,10 +65,7 @@ namespace SSPrototype
         /// </summary>
         protected override void Initialize()
         {
-            SSMainToolWindowCommand.Initialize(this);
             base.Initialize();
-            SSTestCommand.Initialize(this);
-            SSTestCommand2.Initialize(this);
         }
 
         #endregion
