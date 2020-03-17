@@ -66,7 +66,6 @@
             inside a button definition. An important aspect of this declaration is that the element id
             must be the actual index (1-based) of the bitmap inside the bitmap strip. -->
       <Bitmap guid="guidImages" href="Resources\SCIconBlack.ico" usedList="SCIconBlack1" />
-      <Bitmap guid="guidImages1" href="Resources\SSTestCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
     </Bitmaps>
     <Groups>
       <Group guid="guidSSMainToolWindowPackageCmdSet1" id="MyMenuGroup" priority="0x0600">
@@ -91,15 +90,6 @@
     <GuidSymbol value="{0b80316b-a8b5-43b7-bd64-a31b9dd92088}" name="guidSSMainToolWindowPackageCmdSet1">
       <IDSymbol value="4128" name="MyMenuGroup" />
       <IDSymbol value="256" name="cmdidSSTestCommand" />
-    </GuidSymbol>
-  
-    <GuidSymbol value="{3c856bff-f22a-4970-aa6d-3ffd5251a08a}" name="guidImages1">
-      <IDSymbol name="bmpPic1" value="1" />
-      <IDSymbol name="bmpPic2" value="2" />
-      <IDSymbol name="bmpPicSearch" value="3" />
-      <IDSymbol name="bmpPicX" value="4" />
-      <IDSymbol name="bmpPicArrows" value="5" />
-      <IDSymbol name="bmpPicStrikethrough" value="6" />
     </GuidSymbol>
   </Symbols>
 </CommandTable>

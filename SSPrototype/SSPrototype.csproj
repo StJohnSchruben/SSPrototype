@@ -71,6 +71,7 @@
     <Content Include="index.html" />
     <Resource Include="Resources\SCIconBlack.PNG" />
     <Resource Include="Resources\SCIconBlack.ico" />
+    <Content Include="Resources\MainMenuCommand.png" />
     <Content Include="Resources\SSMainToolWindowCommand.png" />
     <Content Include="Resources\SSMainToolWindowPackage.ico" />
     <VSCTCompile Include="SSMainToolWindowPackage.vsct">
