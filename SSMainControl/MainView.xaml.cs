@@ -23,6 +23,27 @@ namespace SSMainControl
         public MainView()
         {
             InitializeComponent();
+            this.btnRender.Click += BtnRender_Click;
+        }
+
+        private void BtnRender_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Routed click event to the MainView");
+        }
+
+        public RadioButton RbClass
+        {
+            get { return this.rbClass; }
+        }
+
+        public RadioButton RbActivity
+        {
+            get { return this.rbActivity; }
+        }
+
+        public Button BtnRenderDiagram
+        {
+            get { return this.btnRender; }
         }
     }
 }

@@ -6,14 +6,38 @@
              xmlns:local="clr-namespace:SSMainControl"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="300">
-    <Grid Background="blue">
-        <TextBlock
-            Foreground="Orange"
-            FontSize="15"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center">
-            This is the test view!
-        </TextBlock>
-            
+    <UserControl.Resources>
+        <Style TargetType="{x:Type RadioButton}" >
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid >
+        <StackPanel >
+            <TextBlock 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Center" 
+                Margin="50,20,0,0" 
+                Foreground="White"
+                FontSize="25">
+                Diagram Selector
+            </TextBlock>
+            <RadioButton x:Name="rbClass" Margin="50,20,0,0" GroupName="Diagram" >Class</RadioButton>
+            <RadioButton Name="rbActivity" Margin="50,20,0,0" GroupName="Diagram" >Activity</RadioButton>
+
+            <Separator BorderBrush="LightGray" BorderThickness="2" Margin="10,50,10,0"/>
+
+            <TextBlock 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Center" 
+                Margin="50,20,0,0" 
+                Foreground="White"
+                FontSize="25">
+                Object Selector
+            </TextBlock>
+            <Border BorderBrush="LightGray" Height="263" Background="Silver" Margin="50,20,50,0">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"><Run Text="Class Tree"/></TextBlock>
+            </Border>
+            <Button Name="btnRender" Height="30" Width="200" Margin="20">Render Diagram</Button>
+        </StackPanel>
     </Grid>
 </UserControl>

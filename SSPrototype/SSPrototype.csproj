@@ -62,6 +62,12 @@
     </Compile>
     <Compile Include="SSMainToolWindowPackage.cs" />
     <Compile Include="SSPackage.cs" />
+    <Compile Include="SSRenderedToolWindow.cs" />
+    <Compile Include="SSRenderedToolWindowCommand.cs" />
+    <Compile Include="SSRenderedToolWindowControl.xaml.cs">
+      <DependentUpon>SSRenderedToolWindowControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SSRenderedToolWindowPackage.cs" />
     <Compile Include="SSTestCommand.cs" />
     <Compile Include="SSTestCommand2.cs" />
   </ItemGroup>
@@ -82,12 +88,21 @@
       <ResourceName>Menus.ctmenu</ResourceName>
     </VSCTCompile>
     <Content Include="Resources\SSPackage.ico" />
+    <Content Include="Resources\SSRenderedToolWindowCommand.png" />
+    <Content Include="Resources\SSRenderedToolWindowPackage.ico" />
     <Content Include="Resources\SSTestCommand.png" />
     <Content Include="Resources\SSTestCommand2.png" />
+    <VSCTCompile Include="SSRenderedToolWindowPackage.vsct">
+      <ResourceName>Menus1.ctmenu</ResourceName>
+    </VSCTCompile>
     <Content Include="stylesheet.css" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="SSMainToolWindowControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SSRenderedToolWindowControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

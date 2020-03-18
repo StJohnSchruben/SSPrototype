@@ -75,3 +75,6 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.latest.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\extension.vsixmanifest
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowControl.baml
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowControl.g.cs
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowPackage.cto
