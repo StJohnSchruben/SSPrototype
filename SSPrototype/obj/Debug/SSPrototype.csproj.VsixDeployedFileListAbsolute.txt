@@ -3,4 +3,14 @@ C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\C
 C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\SSMainControl.dll
 C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\SSPrototype.pkgdef
 C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\extension.vsixmanifest
+C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\CommonServiceLocator.dll
+C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\GalaSoft.MvvmLight.dll
+C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\GalaSoft.MvvmLight.Extras.dll
+C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\GalaSoft.MvvmLight.Platform.dll
+C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\Lwi.dll
+C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\Microsoft.Practices.Unity.dll
+C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\System.Windows.Interactivity.dll
 C:\Users\John.Schruben\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\SSPrototype\1.0\\SSMainControl.pdb

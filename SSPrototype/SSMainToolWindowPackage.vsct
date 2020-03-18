@@ -77,13 +77,13 @@
 
 
 
-      <Button guid="guidSSRenderedToolWindowPackageCmdSet" id="SSRenderedToolWindowCommandId" priority="0x0100" type="Button">
+      <!--<Button guid="guidSSRenderedToolWindowPackageCmdSet" id="SSRenderedToolWindowCommandId" priority="0x0100" type="Button">
         <Parent guid="guidSSMainToolWindowPackageCmdSet1" id="MyMenuGroup" />
         <Icon guid="guidImages" id="SCIconBlack1" />
         <Strings>
           <ButtonText>SS: Rendered Tool Window</ButtonText>
         </Strings>
-      </Button>
+      </Button>-->
     </Buttons>
 
     <!--The bitmaps section is used to define the bitmaps that are used for the commands.-->
@@ -126,12 +126,12 @@
 
 
 
-    <!-- This is the package guid. -->
+    <!-- This is the package guid. --><!--
     <GuidSymbol name="guidSSRenderedToolWindowPackage" value="{10d78e7f-90ef-4401-baac-b562a443a37b}" />
 
-    <!-- This is the guid used to group the menu commands together -->
+    --><!-- This is the guid used to group the menu commands together --><!--
     <GuidSymbol name="guidSSRenderedToolWindowPackageCmdSet" value="{c151a712-ed3b-48db-a982-2bcd6de43997}">
       <IDSymbol name="SSRenderedToolWindowCommandId" value="0x0100" />
-    </GuidSymbol>
+    </GuidSymbol>-->
   </Symbols>
 </CommandTable>

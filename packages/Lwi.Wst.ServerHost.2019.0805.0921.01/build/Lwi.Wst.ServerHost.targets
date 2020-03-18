@@ -1,0 +1,12 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Lwi.Wst.ServerHost.exe.config">
+      <Link>Lwi.Wst.ServerHost.exe.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Lwi.Wst.ServerHost_FS.config">
+      <Link>Lwi.Wst.ServerHost_FS.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

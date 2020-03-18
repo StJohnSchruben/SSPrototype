@@ -1,3 +1,4 @@
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.dll.config
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.vsix
@@ -24,6 +25,9 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.Validation.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSMainControl.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\stdole.dll
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\GalaSoft.MvvmLight.Platform.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE90a.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
@@ -32,6 +36,7 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.CoreUtility.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.MSXML.dll
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\System.Windows.Interactivity.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSMainControl.pdb
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE100.xml
@@ -52,13 +57,20 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.Threading.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.Utilities.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.Validation.xml
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\GalaSoft.MvvmLight.Platform.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE90a.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.ImageCatalog.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\Microsoft.VisualStudio.CoreUtility.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.csprojResolveAssemblyReference.cache
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSMainToolWindowControl.baml
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowControl.baml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSMainToolWindowControl.g.cs
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowControl.g.cs
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype_MarkupCompile.cache
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype_MarkupCompile.lref
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSResourceDictionary.baml
@@ -66,6 +78,7 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\VSPackage.resources
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.csproj.GenerateResource.Cache
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSMainToolWindowPackage.cto
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowPackage.cto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\VSCT.read.1.tlog
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\VSCT.write.1.tlog
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\CtoResourceMerger.cache
@@ -75,6 +88,3 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.latest.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\extension.vsixmanifest
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowControl.baml
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowControl.g.cs
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowPackage.cto

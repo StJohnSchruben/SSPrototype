@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="SSMainControl.RenderedView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SSMainControl"
+             xmlns:converters="clr-namespace:SSMainControl.Views.Converters"
+             mc:Ignorable="d" 
+             DataContext="{Binding Path=RenderedView, Source={x:Static local:SharedResouces.ViewModelLocator}}"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <converters:EnumToStringConverter x:Key="EnumToStringConverter" />
+    </UserControl.Resources>
+    <Grid >
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"> 
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="LightGray" FontSize="26">Rendered View</TextBlock>
+            <TextBlock x:Name="tbDiagramType" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="LightGray" FontSize="26" Text="{Binding Path=SelectedMode, Converter={StaticResource EnumToStringConverter}, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
