@@ -14,5 +14,7 @@ namespace SSMainControl.ViewModels
         bool IsExpanded { get; set; }
 
         ReadOnlyCollection<ISSObjectViewModel> SolutionObjects { get; }
+
+        void UpdateSolutionItems();
     }
 }

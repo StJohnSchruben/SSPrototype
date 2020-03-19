@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using SSMainControl.Model.Enum;
 using SSMainControl.Model;
+using SSMainControl.ViewModels.Messages;
 
 namespace SSMainControl.ViewModels.Impl
 {
@@ -15,7 +16,7 @@ namespace SSMainControl.ViewModels.Impl
         private bool isExpanded;
         private bool isSelected;
         private ReadOnlyCollection<ISSObjectViewModel> solutionObjects;
-        readonly SSObjectViewModel rootItem;
+        SSObjectViewModel rootItem;
         public ObjectTreeViewModel(SSObject ssObjects)
         {
             rootItem = new SSObjectViewModel(ssObjects);
@@ -24,6 +25,13 @@ namespace SSMainControl.ViewModels.Impl
                 {
                     rootItem
                 });
+
+            this.MessengerInstance.Register<ObjectTreeUpdated>(this, this.ObjectTreeUpdated);
+        }
+
+        private void ObjectTreeUpdated(ObjectTreeUpdated obj)
+        {
+            this.UpdateSolutionItems();
         }
 
         public bool IsExpanded
@@ -58,6 +66,17 @@ namespace SSMainControl.ViewModels.Impl
             {
                 return this.solutionObjects;
             }
+        }
+
+        public void UpdateSolutionItems()
+        {
+            SSObject ssObjects = SolutionObjectData.GetSolutionItems();
+            rootItem = new SSObjectViewModel(ssObjects);
+            this.solutionObjects = new ReadOnlyCollection<ISSObjectViewModel>(
+                new SSObjectViewModel[]
+                {
+                    rootItem
+                }); 
         }
     }
 }

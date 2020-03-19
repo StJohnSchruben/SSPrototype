@@ -94,12 +94,15 @@
   <ItemGroup>
     <Compile Include="Model\Enum\DiagramType.cs" />
     <Compile Include="Model\Enum\SSObjectType.cs" />
+    <Compile Include="Model\SolutionObjectData.cs" />
     <Compile Include="Model\SSObject.cs" />
     <Compile Include="Model\TestModel.cs" />
     <Compile Include="ViewModels\Impl\ObjectTreeViewModel.cs" />
     <Compile Include="ViewModels\Impl\SSObjectViewModel.cs" />
     <Compile Include="ViewModels\IObjectTreeViewModel.cs" />
     <Compile Include="ViewModels\ISSObjectViewModel.cs" />
+    <Compile Include="ViewModels\Messages\ObjectTreeUpdated.cs" />
+    <Compile Include="Views\CustomControls\MulitSelectTreeView.cs" />
     <Compile Include="Views\ObjectTree.xaml.cs">
       <DependentUpon>ObjectTree.xaml</DependentUpon>
     </Compile>

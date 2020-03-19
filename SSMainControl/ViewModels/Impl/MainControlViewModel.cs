@@ -50,6 +50,13 @@ namespace SSMainControl.ViewModels.Impl
             }
         }
 
+        public ICommand UpdateTreeCommand => new RelayCommand(this.UpdateTreeClicked);
+
+        private void UpdateTreeClicked()
+        {
+            this.MessengerInstance.Send(new ObjectTreeUpdated());
+        }
+
         private void RenderClicked()
         {
             this.MessengerInstance.Send(

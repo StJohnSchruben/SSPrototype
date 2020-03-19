@@ -33,6 +33,8 @@ namespace SSMainControl.ViewModels.Impl
                     (from thing in item.Items
                      select new SSObjectViewModel(thing, this))
                      .ToList<SSObjectViewModel>());
+
+            this.IsExpanded = true;
         }
 
         public SSObjectType SSType

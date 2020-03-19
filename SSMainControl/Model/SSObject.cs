@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SSMainControl.Model.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,5 +16,6 @@ namespace SSMainControl.Model
         }
 
         public string Name { get; set; }
+        public SSObjectType FileType { get; set; }
     }
 }

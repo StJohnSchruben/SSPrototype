@@ -8,8 +8,9 @@ namespace SSMainControl.Model.Enum
 {
     public enum SSObjectType
     {
-        SSClass = 0,
-        SSInterface = 1,
+        UnknownFileType = 0,
+        SSClass = 1,
+        SSInterface = 2,
         SSFolder = 3,
         SSXaml =4,
     }
