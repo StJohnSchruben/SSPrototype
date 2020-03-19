@@ -8,14 +8,16 @@ namespace SSMainControl.Model
 {
     public class SolutionObjectData
     {
+        private static SSObject solutionItems;
+
         public SolutionObjectData()
         {
-
+            solutionItems = new SSObject();
         }
 
         public static SSObject GetSolutionItems()
         {
-            SSObject solutionItems = new SSObject();
+            
             /**
              * Could use Calebs help here.
              * This is one way to build the objects. 
@@ -34,6 +36,13 @@ namespace SSMainControl.Model
                 };
              * **/
             return solutionItems;
+        }
+
+        public static SSObject SelectedSolutionItems()
+        {
+            SSObject selectedSolutionItems = new SSObject();
+
+            return selectedSolutionItems;
         }
     }
 }
