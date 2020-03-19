@@ -20,5 +20,7 @@ namespace SSMainControl
 
         public IMainControlViewModel MainControl => this.container.Resolve<IMainControlViewModel>();
         public IRenderedViewModel RenderedView => this.container.Resolve<IRenderedViewModel>();
+        public IObjectTreeViewModel ObjectTree => this.container.Resolve<IObjectTreeViewModel>();
+        public ISSObjectViewModel SSObject => this.container.Resolve<ISSObjectViewModel>();
     }
 }

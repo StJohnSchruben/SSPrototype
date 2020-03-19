@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 
-2-1616406350
+3-1084924858
 
-18902417334
+26-1119886718
 75388546634
-Views\MainView.xaml;Views\RenderedView.xaml;
+Views\ObjectTree.xaml;Views\MainView.xaml;Views\RenderedView.xaml;
 
 False
 

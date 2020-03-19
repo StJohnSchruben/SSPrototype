@@ -36,7 +36,7 @@
                 Object Selector
             </TextBlock>
             <Border BorderBrush="LightGray" Height="263" Background="Silver" Margin="50,20,50,0">
-                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"><Run Text="Class Tree"/></TextBlock>
+                <local:ObjectTree DataContext="{Binding Path=ObjectTree, Source={x:Static local:SharedResouces.ViewModelLocator}}"/>
             </Border>
             <Button Command="{Binding RenderCommand}" Name="btnRender" Height="30" Width="200" Margin="20">Render Diagram</Button>
         </StackPanel>

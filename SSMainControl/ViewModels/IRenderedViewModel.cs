@@ -9,6 +9,6 @@ namespace SSMainControl.ViewModels
 {
     public interface IRenderedViewModel 
     {
-        DiagramTypes SelectedMode { get; set; }
+        DiagramType SelectedMode { get; set; }
     }
 }

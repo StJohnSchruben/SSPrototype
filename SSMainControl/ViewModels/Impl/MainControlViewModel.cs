@@ -14,11 +14,11 @@ namespace SSMainControl.ViewModels.Impl
 {
     public class MainControlViewModel : ViewModelBase, IMainControlViewModel
     {
-        private DiagramTypes selectedMode;
+        private DiagramType selectedMode;
 
         public MainControlViewModel()
         {
-            this.selectedMode = DiagramTypes.Class;
+            this.selectedMode = DiagramType.Class;
         }
 
         public ICommand ModeSelectionCommand => new SSMainControl.ViewModels.CustomControls.ParamedRelayCommand(this.ModeSelectionChanged);
@@ -27,7 +27,7 @@ namespace SSMainControl.ViewModels.Impl
         {
             if (parameter != null)
             {
-                DiagramTypes mode;
+                DiagramType mode;
                 if (Enum.TryParse(parameter.ToString(), true, out mode))
                 {
                     this.SelectedMode = mode;
@@ -37,7 +37,7 @@ namespace SSMainControl.ViewModels.Impl
 
         public ICommand RenderCommand => new RelayCommand(this.RenderClicked);
 
-        public DiagramTypes SelectedMode
+        public DiagramType SelectedMode
         {
             get
             {

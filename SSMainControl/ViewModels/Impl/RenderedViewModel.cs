@@ -12,7 +12,7 @@ namespace SSMainControl.ViewModels.Impl
 {
     public class RenderedViewModel : ViewModelBase, IRenderedViewModel
     {
-        private DiagramTypes selectedMode;
+        private DiagramType selectedMode;
 
         public RenderedViewModel()
         {
@@ -24,7 +24,7 @@ namespace SSMainControl.ViewModels.Impl
             this.SelectedMode = message.DiagramMode;
         }
 
-        public DiagramTypes SelectedMode
+        public DiagramType SelectedMode
         {
             get
             {

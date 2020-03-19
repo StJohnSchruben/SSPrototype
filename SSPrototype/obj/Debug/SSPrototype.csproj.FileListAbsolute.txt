@@ -1,8 +1,6 @@
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.dll.config
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.pkgdef
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.vsix
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\extension.vsixmanifest
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE100.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\EnvDTE80.dll
@@ -69,11 +67,11 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.csprojResolveAssemblyReference.cache
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSMainToolWindowControl.baml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowControl.baml
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSResourceDictionary.baml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSMainToolWindowControl.g.cs
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSRenderedToolWindowControl.g.cs
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype_MarkupCompile.cache
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype_MarkupCompile.lref
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSResourceDictionary.baml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.g.resources
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\VSPackage.resources
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.csproj.GenerateResource.Cache
@@ -88,3 +86,5 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSProto
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\SSPrototype.latest.pkgdef
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\obj\Debug\extension.vsixmanifest
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\SSPrototype.vsix
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSPrototype\bin\Debug\extension.vsixmanifest

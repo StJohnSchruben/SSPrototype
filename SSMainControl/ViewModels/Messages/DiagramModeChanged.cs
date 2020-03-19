@@ -10,6 +10,6 @@ namespace SSMainControl.ViewModels.Messages
 {
     public class DiagramModeChanged : MessageBase
     {
-        public DiagramTypes DiagramMode { get; set; }
+        public DiagramType DiagramMode { get; set; }
     }
 }

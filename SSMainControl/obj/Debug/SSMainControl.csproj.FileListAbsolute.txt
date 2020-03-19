@@ -23,13 +23,16 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainC
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\Views\ObjectTree.g.cs
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\Views\MainView.g.cs
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\Views\RenderedView.g.cs
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\SSMainControl_MarkupCompile.cache
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\SSMainControl_MarkupCompile.lref
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\Views\ObjectTree.baml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\Views\MainView.baml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\Views\RenderedView.baml
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\SSMainControl.g.resources
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\SSMainControl.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\SSMainControl.pdb
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\SSMainControl.csprojResolveAssemblyReference.cache

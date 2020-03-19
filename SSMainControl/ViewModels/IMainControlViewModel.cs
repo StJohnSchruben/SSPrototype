@@ -12,6 +12,6 @@ namespace SSMainControl.ViewModels
     {
         ICommand RenderCommand { get; }
         ICommand ModeSelectionCommand { get; }
-        DiagramTypes SelectedMode { get; set; }
+        DiagramType SelectedMode { get; set; }
     }
 }

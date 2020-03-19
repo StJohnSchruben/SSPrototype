@@ -1,4 +1,5 @@
 ﻿using Microsoft.Practices.Unity;
+using SSMainControl.Model;
 using SSMainControl.ViewModels;
 using SSMainControl.ViewModels.Impl;
 using System;
@@ -15,6 +16,8 @@ namespace SSMainControl
         {
             this.Container.RegisterType<IRenderedViewModel, RenderedViewModel>();
             this.Container.RegisterType<IMainControlViewModel, MainControlViewModel>();
+            this.Container.RegisterType<ISSObjectViewModel, SSObjectViewModel>();
+            this.Container.RegisterType<IObjectTreeViewModel, ObjectTreeViewModel>(new InjectionFactory(c => new ObjectTreeViewModel(TestModel.GetSolutionItems())));
         }
     }
 }
