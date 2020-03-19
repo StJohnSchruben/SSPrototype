@@ -35,3 +35,4 @@ C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainC
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\SSMainControl.g.resources
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\SSMainControl.dll
 C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\SSMainControl.pdb
+C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\SSMainControl.csprojResolveAssemblyReference.cache

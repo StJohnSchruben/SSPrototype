@@ -102,6 +102,7 @@
     <Compile Include="ViewModels\IObjectTreeViewModel.cs" />
     <Compile Include="ViewModels\ISSObjectViewModel.cs" />
     <Compile Include="ViewModels\Messages\ObjectTreeUpdated.cs" />
+    <Compile Include="Views\Converters\FileTypeToVisibilityConverter.cs" />
     <Compile Include="Views\CustomControls\MulitSelectTreeView.cs" />
     <Compile Include="Views\ObjectTree.xaml.cs">
       <DependentUpon>ObjectTree.xaml</DependentUpon>

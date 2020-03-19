@@ -13,5 +13,6 @@ namespace SSMainControl.Model.Enum
         SSInterface = 2,
         SSFolder = 3,
         SSXaml =4,
+        SSProject = 5,
     }
 }

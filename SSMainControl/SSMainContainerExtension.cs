@@ -17,7 +17,7 @@ namespace SSMainControl
             this.Container.RegisterType<IRenderedViewModel, RenderedViewModel>();
             this.Container.RegisterType<IMainControlViewModel, MainControlViewModel>();
             this.Container.RegisterType<ISSObjectViewModel, SSObjectViewModel>();
-            this.Container.RegisterType<IObjectTreeViewModel, ObjectTreeViewModel>(new InjectionFactory(c => new ObjectTreeViewModel(SolutionObjectData.GetSolutionItems())));
+            this.Container.RegisterType<IObjectTreeViewModel, ObjectTreeViewModel>(new InjectionFactory(c => new ObjectTreeViewModel(TestModel.GetSolutionItems())));
         }
     }
 }

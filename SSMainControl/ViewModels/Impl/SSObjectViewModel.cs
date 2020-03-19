@@ -15,7 +15,7 @@ namespace SSMainControl.ViewModels.Impl
         private string name;
         private bool isSelected;
         private bool isExpanded;
-        private SSObjectType ssType;
+        private SSObjectType fileType;
 
         readonly ReadOnlyCollection<SSObjectViewModel> items;
         readonly SSObjectViewModel parent;
@@ -24,6 +24,7 @@ namespace SSMainControl.ViewModels.Impl
         public SSObjectViewModel(SSObject name):this(name, null)
         {
         }
+
         private SSObjectViewModel(SSObject item, SSObjectViewModel parent)
         {
             this.item = item;
@@ -37,16 +38,16 @@ namespace SSMainControl.ViewModels.Impl
             this.IsExpanded = true;
         }
 
-        public SSObjectType SSType
+        public SSObjectType FileType
         {
             get
             {
-                return this.ssType;
+                return this.fileType;
             }
 
             set
             {
-                this.Set(() => this.SSType, ref this.ssType, value);
+                this.Set(() => this.FileType, ref this.fileType, value);
             }
         }
 

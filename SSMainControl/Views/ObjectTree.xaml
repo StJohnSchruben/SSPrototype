@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:SSMainControl"
              xmlns:controls="clr-namespace:SSMainControl.Views.CustomControls"
+             xmlns:converters="clr-namespace:SSMainControl.Views.Converters"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <!--<UserControl.Resources>
@@ -152,6 +153,9 @@
             </Style.Triggers>
         </Style>
     </UserControl.Resources>-->
+    <UserControl.Resources>
+        <converters:FileTypeToVisibilityConverter x:Key="FileTypeToVisibilityConverter" />
+    </UserControl.Resources>
     <Grid>
         <!--<controls:MultiSelectTreeView
             x:Name="multiSelectTreeView"
@@ -183,7 +187,7 @@
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate ItemsSource="{Binding Items}">
                     <StackPanel Orientation="Horizontal">
-                        <CheckBox />
+                        <CheckBox Visibility="{Binding FileType, Converter={StaticResource FileTypeToVisibilityConverter}, UpdateSourceTrigger=PropertyChanged}"/>
                         <TextBlock Text="{Binding Name}" />
                     </StackPanel>
                 </HierarchicalDataTemplate>

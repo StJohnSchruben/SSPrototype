@@ -12,7 +12,7 @@ namespace SSMainControl.ViewModels
 {
     public interface ISSObjectViewModel
     {
-        SSObjectType SSType { get; set; }
+        SSObjectType FileType { get; set; }
         bool IsSelected { get; set; }
         bool IsExpanded { get; set; }
         SSObjectViewModel Parent { get; }
