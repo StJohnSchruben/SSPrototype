@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\John.Schruben\Documents\Visual Studio 2015\Projects\SSPrototype\SSMainControl\obj\Debug\
+C:\Users\johns\OneDrive\Documents\GitHub\SSPrototype\SSMainControl\obj\Debug\
 SSMainControl
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE
 
 3-1084924858
 
-26-209616458
-76-379566468
+27291758631
+76-1566746577
 Views\ObjectTree.xaml;Views\MainView.xaml;Views\RenderedView.xaml;
 
-False
+True
 
