@@ -174,7 +174,7 @@
             <TreeView.ItemContainerStyle>
                 <Style TargetType="{x:Type TreeViewItem}">
                     <Setter Property="IsExpanded" Value="{Binding IsExpanded, Mode=TwoWay}" />
-                    <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+                    <!--<Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />-->
                     <Setter Property="FontWeight" Value="Normal" />
                     <Style.Triggers>
                         <Trigger Property="IsSelected" Value="True">
@@ -187,7 +187,7 @@
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate ItemsSource="{Binding Items}">
                     <StackPanel Orientation="Horizontal">
-                        <CheckBox Visibility="{Binding FileType, Converter={StaticResource FileTypeToVisibilityConverter}, UpdateSourceTrigger=PropertyChanged}"/>
+                        <CheckBox IsChecked="{Binding IsSelected, Mode=TwoWay}" Visibility="{Binding FileType, Converter={StaticResource FileTypeToVisibilityConverter}, UpdateSourceTrigger=PropertyChanged}"/>
                         <TextBlock Text="{Binding Name}" />
                     </StackPanel>
                 </HierarchicalDataTemplate>

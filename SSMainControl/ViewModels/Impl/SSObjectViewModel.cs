@@ -21,7 +21,7 @@ namespace SSMainControl.ViewModels.Impl
         readonly SSObjectViewModel parent;
         readonly SSObject item;
 
-        public SSObjectViewModel(SSObject name):this(name, null)
+        public SSObjectViewModel(SSObject file):this(file, null)
         {
         }
 
@@ -40,15 +40,7 @@ namespace SSMainControl.ViewModels.Impl
 
         public SSObjectType FileType
         {
-            get
-            {
-                return this.fileType;
-            }
-
-            set
-            {
-                this.Set(() => this.FileType, ref this.fileType, value);
-            }
+            get { return item.FileType; }
         }
 
         public string Name
@@ -80,7 +72,11 @@ namespace SSMainControl.ViewModels.Impl
             get { return isSelected; }
             set
             {
-                this.Set(() => this.IsSelected, ref this.isSelected, value);
+                var changed  = this.Set(() => this.IsSelected, ref this.isSelected, value); 
+                if (changed)
+                {
+                    this.item.IsSelected = value;
+                }
             }
         }
 

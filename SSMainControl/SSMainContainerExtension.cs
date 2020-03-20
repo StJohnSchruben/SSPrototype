@@ -14,10 +14,11 @@ namespace SSMainControl
     {
         protected override void Initialize()
         {
-            this.Container.RegisterType<IRenderedViewModel, RenderedViewModel>();
+            SSObject model = SolutionObjectData.GetSolutionItems();
+            this.Container.RegisterType<IRenderedViewModel, RenderedViewModel>(new InjectionFactory(c => new RenderedViewModel(model)));
             this.Container.RegisterType<IMainControlViewModel, MainControlViewModel>();
             this.Container.RegisterType<ISSObjectViewModel, SSObjectViewModel>();
-            this.Container.RegisterType<IObjectTreeViewModel, ObjectTreeViewModel>(new InjectionFactory(c => new ObjectTreeViewModel(TestModel.GetSolutionItems())));
+            this.Container.RegisterType<IObjectTreeViewModel, ObjectTreeViewModel>(new InjectionFactory(c => new ObjectTreeViewModel(model)));
         }
     }
 }

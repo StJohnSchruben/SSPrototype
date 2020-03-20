@@ -7,21 +7,28 @@ using SSMainControl.Model.Enum;
 using Lwi;
 using GalaSoft.MvvmLight;
 using SSMainControl.ViewModels.Messages;
+using SSMainControl.Model;
+using System.Threading;
 
 namespace SSMainControl.ViewModels.Impl
 {
     public class RenderedViewModel : ViewModelBase, IRenderedViewModel
     {
         private DiagramType selectedMode;
-
-        public RenderedViewModel()
+        private SSObject ssObjects;
+        public RenderedViewModel(SSObject ssObjects)
         {
+            this.ssObjects = ssObjects;
             this.MessengerInstance.Register<DiagramModeChanged>(this, this.OnDiagramModeChanged);
         }
 
         private void OnDiagramModeChanged(DiagramModeChanged message)
         {
             this.SelectedMode = message.DiagramMode;
+            if(this.ssObjects != null)
+            {
+                ;
+            }
         }
 
         public DiagramType SelectedMode

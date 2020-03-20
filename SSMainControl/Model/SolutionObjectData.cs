@@ -12,12 +12,16 @@ namespace SSMainControl.Model
 
         public SolutionObjectData()
         {
-            solutionItems = new SSObject();
+            solutionItems = TestModel.GetSolutionItems();
         }
 
         public static SSObject GetSolutionItems()
         {
-            
+            if (solutionItems == null)
+            {
+                solutionItems = TestModel.GetSolutionItems();
+            }
+
             /**
              * Could use Calebs help here.
              * This is one way to build the objects. 
@@ -35,14 +39,9 @@ namespace SSMainControl.Model
                     },
                 };
              * **/
+            
+            
             return solutionItems;
-        }
-
-        public static SSObject SelectedSolutionItems()
-        {
-            SSObject selectedSolutionItems = new SSObject();
-
-            return selectedSolutionItems;
         }
     }
 }
